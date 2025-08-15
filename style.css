@@ -1,29 +1,133 @@
-*, *::before, *::after {
-  box-sizing: border-box;
-}
-
-* {
-  margin: 0;
+html {
+  font-size: 18px;
+  line-height: 1.6;
+  font-family: "Georgia", "Times New Roman", serif;
+  background-color: #faf9f7;
+  color: #1a1a1a;
 }
 
 body {
-  line-height: 1.5;
-  -webkit-font-smoothing: antialiased;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 3rem 1.5rem;
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-gap: 2rem;
 }
 
-img, picture, video, canvas, svg {
-  display: block;
-  max-width: 100%;
+/* Hoofdtitel */
+h1 {
+  grid-column: 1 / -1;
+  font-size: clamp(2.5rem, 6vw, 4.5rem);
+  font-weight: 400;
+  line-height: 1.1;
+  margin-bottom: 2rem;
+  max-width: 18ch;
 }
 
-p, h1, h2, h3, h4, h5, h6 {
-  overflow-wrap: break-word;
+/* Intro tekst split */
+body > p:first-of-type {
+  grid-column: 1 / 8;
+  font-size: 1.1rem;
+}
+body > p:nth-of-type(2) {
+  grid-column: 8 / -1;
+  align-self: start;
+}
+
+/* Drop cap in eerste alinea */
+body > p:first-of-type::first-letter {
+  float: left;
+  font-size: 4rem;
+  font-weight: bold;
+  line-height: 0.9;
+  padding-right: 0.2em;
+  padding-top: 0.1em;
+  color: #c60c30;
+  font-family: "Times New Roman", serif;
+}
+
+/* Sectietitel */
+h2 {
+  grid-column: 1 / -1;
+  font-size: clamp(1.8rem, 4vw, 2.4rem);
+  font-weight: 400;
+  margin-top: 4rem;
+  margin-bottom: 1rem;
+}
+
+/* Projectlijst */
+ul {
+  grid-column: 1 / -1;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 3rem 2rem;
+}
+
+li {
+  border-top: 1px solid #ddd;
+  padding-top: 1.5rem;
+}
+
+h3 {
+  font-size: 1.4rem;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
 }
 
 p {
-  text-wrap: pretty;
+  margin-bottom: 1.2rem;
+  max-width: 65ch;
 }
 
-h1, h2, h3, h4, h5, h6 {
-  text-wrap: balance;
+/* Afbeeldingen die breken uit het grid */
+figure {
+  grid-column: 2 / 12;
+  margin: 3rem 0;
+  position: relative;
+}
+figure img {
+  width: 100%;
+  height: auto;
+  display: block;
+  object-fit: cover;
+}
+figure.full-bleed {
+  grid-column: 1 / -1;
+}
+figure img.bleed {
+  width: calc(100% + 4rem);
+  margin-left: -2rem;
+}
+
+/* Accentkleur */
+a {
+  color: #c60c30;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+
+/* Mobiel */
+@media (max-width: 768px) {
+  body {
+    grid-template-columns: 1fr;
+  }
+  body > p {
+    grid-column: 1;
+  }
+  ul {
+    grid-template-columns: 1fr;
+  }
+  figure, figure.full-bleed {
+    grid-column: 1;
+  }
+  figure img.bleed {
+    width: 100%;
+    margin-left: 0;
+  }
 }
