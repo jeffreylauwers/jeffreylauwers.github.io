@@ -10,9 +10,6 @@ body {
   max-width: 1200px;
   margin: 0 auto;
   padding: 3rem 1rem;
-  display: grid;
-  grid-template-columns: repeat(12, 1fr);
-  grid-gap: 2rem;
 }
 
 /* Hoofdtitel */
