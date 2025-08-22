@@ -1,8 +1,15 @@
-
 *,
 *::before,
 *::after {
   box-sizing: border-box;
+}
+
+:root {
+  --step-0: clamp(1.125rem, 1.0227rem + 0.4545vw, 1.375rem);
+  --step-1: clamp(1.6875rem, 1.5341rem + 0.6818vw, 2.0625rem);
+  --step-2: clamp(2.5313rem, 2.3011rem + 1.0227vw, 3.0938rem);
+  --step-3: clamp(3.7969rem, 3.4517rem + 1.5341vw, 4.6406rem);
+  --step-4: clamp(5.6953rem, 5.1776rem + 2.3011vw, 6.9609rem);
 }
 
 html {
@@ -19,7 +26,7 @@ figure, blockquote, dl, dd {
 body {
   background-color: #faf9f7;
   color: #1a1a1a;
-  font-size: 1em;
+  font-size: var(--step-0);
   line-height: 1.5;
   font-family: "Georgia", "Times New Roman", serif;
   max-width: 1200px;
@@ -53,19 +60,24 @@ picture {
 }
 
 h1 {
-  font-size: clamp(3rem, 6vw, 4.5rem);
+  font-size: var(--step-4);
   margin-bottom: 2em;
   max-width: 18ch;
 }
 
 h2 {
-  font-size: clamp(2rem, 4vw, 3rem);
+  font-size: var(--step-3);
   margin-top: 4rem;
   margin-bottom: 1rem;
 }
 
 h3 {
-  font-size: clamp(1.5rem, 4vw, 2rem);
+  font-size: var(--step-2);
+  margin-bottom: 0.5rem;
+}
+
+h4 {
+  font-size: var(--step-1);
   margin-bottom: 0.5rem;
 }
 
