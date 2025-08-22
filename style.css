@@ -41,6 +41,10 @@ h1, h2, h3, h4 {
   text-wrap: balance;
 }
 
+ul, ol {
+  padding-inline-start; 0;
+}
+
 li {
   list-style: none;
 }
