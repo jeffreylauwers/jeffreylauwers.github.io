@@ -10,7 +10,7 @@
   --step-2: clamp(1.999rem, 1.6921rem + 1.3639vw, 2.7492rem);
   --step-3: clamp(2.6647rem, 2.1645rem + 2.223vw, 3.8873rem);
   --step-4: clamp(3.552rem, 2.7565rem + 3.5358vw, 5.4967rem);
-  --flow-space: 1em;
+  --flow-space: 1.5em;
 }
 
 html {
