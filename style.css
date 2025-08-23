@@ -10,6 +10,7 @@
   --step-2: clamp(1.999rem, 1.6921rem + 1.3639vw, 2.7492rem);
   --step-3: clamp(2.6647rem, 2.1645rem + 2.223vw, 3.8873rem);
   --step-4: clamp(3.552rem, 2.7565rem + 3.5358vw, 5.4967rem);
+  --flow-space: 1em;
 }
 
 html {
@@ -35,12 +36,6 @@ body {
   margin: 0 auto;
 }
 
-h1, h2, h3, h4 {
-  font-weight: 400;
-  line-height: 1.1;
-  text-wrap: balance;
-}
-
 ul, ol {
   padding-inline-start: 0;
 }
@@ -63,39 +58,39 @@ picture {
   scroll-margin-block: 5ex;
 }
 
+h1, h2, h3, h4 {
+  font-weight: 400;
+  line-height: 1.1;
+  text-wrap: balance;
+}
+
 h1 {
   font-size: var(--step-4);
-  margin-bottom: 2em;
   max-width: 18ch;
 }
 
 h2 {
   font-size: var(--step-3);
-  margin-top: 4rem;
-  margin-bottom: 1rem;
 }
 
 h3 {
   font-size: var(--step-2);
-  margin-bottom: 0.5rem;
 }
 
 h4 {
   font-size: var(--step-1);
-  margin-bottom: 0.5rem;
 }
 
 p {
-  margin-bottom: 1.2rem;
   max-width: 65ch;
 }
 
-li {
-  padding-top: 1.5rem;
+.flow > * + * {
+  margin-block-start: var(--flow-space, 1em);
 }
 
 .disclaimer {
   background-color: #1a1a1a;
   color: #faf9f7;
-padding: 1rem;
+  padding: 1rem;
 }
