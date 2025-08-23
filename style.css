@@ -93,5 +93,8 @@ p {
   background-color: #1a1a1a;
   color: #faf9f7;
   padding: 1rem;
-margin-block-start: 0;
+}
+
+.disclaimer-content {
+  margin-block-start: 0;
 }
