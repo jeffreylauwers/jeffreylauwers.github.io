@@ -93,3 +93,9 @@ p {
 li {
   padding-top: 1.5rem;
 }
+
+.disclaimer {
+  background-color: #1a1a1a;
+  color: #faf9f7;
+padding: 0.5 rem;
+}
