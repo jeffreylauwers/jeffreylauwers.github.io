@@ -99,18 +99,22 @@ p {
   margin-block-start: 0;
 }
 
-.work__logo--nlds{
+.work__logo--nlds {
   width: 3rem;
 }
 
-.work__logo--ns{
+.work__logo--ns {
   width: 5rem;
 }
 
-.work__logo--nn{
+.work__logo--nn {
   width: 3rem;
 }
 
-.work__logo--randstad{
+.work__logo--randstad {
   width: 5rem;
+}
+
+.quote__author {
+  margin-block-start: 1rem;
 }
