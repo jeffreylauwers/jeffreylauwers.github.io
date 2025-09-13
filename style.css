@@ -115,6 +115,10 @@ p {
   width: 5rem;
 }
 
+.quote {
+  font-size: var(--step-1);
+}
+
 .quote__author {
   margin-block-start: 1rem;
 }
