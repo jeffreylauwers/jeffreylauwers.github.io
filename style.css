@@ -5,16 +5,16 @@
 }
 
 :root {
+  --flow-space: 1.5em;
   --jl-text-font-size-md: clamp(1.125rem, 1.0227rem + 0.4545vw, 1.375rem);
   --jl-text-font-size-lg: clamp(1.4996rem, 1.3177rem + 0.8084vw, 1.9443rem);
   --jl-text-font-size-xl: clamp(1.999rem, 1.6921rem + 1.3639vw, 2.7492rem);
   --jl-text-font-size-2xl: clamp(2.6647rem, 2.1645rem + 2.223vw, 3.8873rem);
   --jl-text-font-size-3xl: clamp(3.552rem, 2.7565rem + 3.5358vw, 5.4967rem);
-  --flow-space: 1.5em;
-  --jl-default-bg-document: #faf9f7;
-  --jl-default-color-document: #1a1a1a;
-  --jl-default-inverse-bg-document: #1a1a1a;
-  --jl-default-inverse-color-document: #faf9f7;
+  --jl-color-default-bg-document: #faf9f7;
+  --jl-color-default-color-document: #1a1a1a;
+  --jl-color-default-inverse-bg-document: #1a1a1a;
+  --jl-color-default-inverse-color-document: #faf9f7;
 }
 
 html {
@@ -30,8 +30,8 @@ figure, blockquote, dl, dd {
 }
 
 body {
-  background-color: var(--jl-default-bg-document);
-  color: var(--jl-default-color-document);
+  background-color: var(--jl-color-default-bg-document);
+  color: var(--jl-color-default-color-document);
   font-size: var(--jl-text-font-size-md);
   line-height: 1.5;
   font-family: "Georgia", "Times New Roman", serif;
@@ -95,8 +95,8 @@ p {
 }
 
 .disclaimer {
-  background-color: var(--jl-default-inverse-bg-document);
-  color: var(--jl-default-inverse-color-document);
+  background-color: var(--jl-color-default-inverse-bg-document);
+  color: var(--jl-color-default-inverse-color-document);
   padding: 1rem;
 }
 
