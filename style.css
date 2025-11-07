@@ -124,6 +124,10 @@ p {
   width: 5rem;
 }
 
+.work__logo--kpn {
+  width: 6rem;
+}
+
 .quote {
   font-size: var(--jl-text-font-size-lg);
 }
