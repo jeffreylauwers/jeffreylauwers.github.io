@@ -6,11 +6,11 @@
 
 :root {
   --flow-space: 1.5em;
-  --jl-text-font-size-md: clamp(1.125rem, 1.0227rem + 0.4545vw, 1.375rem);
-  --jl-text-font-size-lg: clamp(1.4996rem, 1.3177rem + 0.8084vw, 1.9443rem);
-  --jl-text-font-size-xl: clamp(1.999rem, 1.6921rem + 1.3639vw, 2.7492rem);
-  --jl-text-font-size-2xl: clamp(2.6647rem, 2.1645rem + 2.223vw, 3.8873rem);
-  --jl-text-font-size-3xl: clamp(3.552rem, 2.7565rem + 3.5358vw, 5.4967rem);
+  --jl-text-font-size-md: clamp(1.000rem, 1.0227rem + 0.4545vw, 1.250rem);
+  --jl-text-font-size-lg: clamp(1.250rem, 1.3177rem + 0.8084vw, 1.500rem);
+  --jl-text-font-size-xl: clamp(1.500rem, 1.6921rem + 1.3639vw, 1.750rem);
+  --jl-text-font-size-2xl: clamp(1.750rem, 2.1645rem + 2.223vw, 2.500rem);
+  --jl-text-font-size-3xl: clamp(2.500rem, 2.7565rem + 3.5358vw, 3.000rem);
   --jl-color-default-bg-document: #faf9f7;
   --jl-color-default-color-document: #1a1a1a;
   --jl-color-default-inverse-bg-document: #1a1a1a;
