@@ -65,6 +65,10 @@ picture {
   scroll-margin-block: 5ex;
 }
 
+section {
+  margin-block-start: 8rem;
+}
+
 .heading-display, .heading-1, .heading-2, .heading-3, .heading-4 {
   font-weight: 400;
   line-height: 1.1;
