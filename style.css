@@ -138,6 +138,8 @@ picture {
 }
 
 .quote {
+  border-inline-start: 4px solid var(--jl-color-default-color-document);
+  padding-inline-start: 1rem;
 }
 
 .quote__author {
