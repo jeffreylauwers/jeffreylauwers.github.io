@@ -11,6 +11,7 @@
   --jl-text-font-size-xl: clamp(1.500rem, 1.425rem + 0.5869vw, 1.750rem);
   --jl-text-font-size-2xl: clamp(1.750rem, 1.7812rem + 0.7336vw, 2.500rem);
   --jl-text-font-size-3xl: clamp(2.500rem, 2.2265rem + 0.917vw, 3.000rem);
+  --jl-text-font-size-4xl: clamp(3.000rem, 2.7831rem + 1.1462vw, 4.000rem);
   --jl-color-default-bg-document: #faf9f7;
   --jl-color-default-color-document: #1a1a1a;
   --jl-color-default-inverse-bg-document: #1a1a1a;
@@ -63,26 +64,30 @@ picture {
   scroll-margin-block: 5ex;
 }
 
-h1, h2, h3, h4 {
+.heading-display, .heading-1, .heading-2, .heading-3, .heading-4 {
   font-weight: 400;
   line-height: 1.1;
   text-wrap: balance;
 }
 
-h1 {
-  font-size: var(--jl-text-font-size-3xl);
+.heading-display {
+  font-size: var(--jl-text-font-size-4xl);
   max-width: 18ch;
 }
 
-h2 {
+.heading-1 {
+  font-size: var(--jl-text-font-size-3xl);
+}
+
+.heading-2 {
   font-size: var(--jl-text-font-size-2xl);
 }
 
-h3 {
+.heading-3 {
   font-size: var(--jl-text-font-size-xl);
 }
 
-h4 {
+.heading-4 {
   font-size: var(--jl-text-font-size-lg);
 }
 
