@@ -160,6 +160,7 @@ section {
 .quote {
   border-inline-start: 4px solid var(--jl-color-default-color-document);
   padding-inline-start: 1rem;
+  margin-block-start: 4rem;
 }
 
 .quote__author {
