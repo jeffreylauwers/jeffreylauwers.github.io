@@ -103,6 +103,14 @@ picture {
   margin-block-start: var(--flow-space, 1em);
 }
 
+.logo {
+  background-color: var(--jl-color-default-inverse-bg-document);
+  color: var(--jl-color-default-inverse-color-document);
+  font-size: var(--jl-text-font-size-md);
+  font-weight: 400;
+  padding: 0.5rem;
+}
+
 .disclaimer {
   background-color: var(--jl-color-default-inverse-bg-document);
   color: var(--jl-color-default-inverse-color-document);
