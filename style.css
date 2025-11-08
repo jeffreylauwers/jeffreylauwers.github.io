@@ -105,6 +105,7 @@ picture {
 }
 
 .logo {
+  display: inline-block;
   background-color: var(--jl-color-default-inverse-bg-document);
   color: var(--jl-color-default-inverse-color-document);
   font-size: var(--jl-text-font-size-md);
