@@ -6,7 +6,7 @@
 
 :root {
   --flow-space: 1.5em;
-  --jl-text-font-size-ms: clamp(0.875rem, 0.7296rem + 0.3005vw, 1.000rem);
+  --jl-text-font-size-sm: clamp(0.875rem, 0.7296rem + 0.3005vw, 1.000rem);
   --jl-text-font-size-md: clamp(1.000rem, 0.912rem + 0.3756vw, 1.250rem);
   --jl-text-font-size-lg: clamp(1.250rem, 1.14rem + 0.4695vw, 1.500rem);
   --jl-text-font-size-xl: clamp(1.500rem, 1.425rem + 0.5869vw, 1.750rem);
