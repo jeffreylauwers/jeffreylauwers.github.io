@@ -143,6 +143,6 @@ picture {
 }
 
 .quote__author {
-  font-size: var(--jl-text-font-size-sm)
+  font-size: var(--jl-text-font-size-sm);
   margin-block-start: 1rem;
 }
