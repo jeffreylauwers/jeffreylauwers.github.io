@@ -96,7 +96,7 @@ picture {
 }
 
 .paragraph-lead {
-  var(--jl-text-font-size-lg)
+  font-size: var(--jl-text-font-size-lg)
 }
 
 .flow > * + * {
