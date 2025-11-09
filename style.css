@@ -6,13 +6,13 @@
 
 :root {
   --flow-space: 1.5em;
-  --jl-text-font-size-sm: clamp(0.875rem, 0.7296rem + 0.3005vw, 1.000rem);
-  --jl-text-font-size-md: clamp(1.000rem, 0.912rem + 0.3756vw, 1.250rem);
-  --jl-text-font-size-lg: clamp(1.250rem, 1.14rem + 0.4695vw, 1.500rem);
-  --jl-text-font-size-xl: clamp(1.500rem, 1.425rem + 0.5869vw, 1.750rem);
-  --jl-text-font-size-2xl: clamp(1.750rem, 1.7812rem + 0.7336vw, 2.500rem);
-  --jl-text-font-size-3xl: clamp(2.500rem, 2.2265rem + 0.917vw, 3.000rem);
-  --jl-text-font-size-4xl: clamp(3.000rem, 2.7831rem + 1.1462vw, 4.000rem);
+  --jl-text-font-size-sm: clamp(1.000rem, 0.7296rem + 0.3005vw, 1.250rem);
+  --jl-text-font-size-md: clamp(1.250rem, 0.912rem + 0.3756vw, 1.500rem);
+  --jl-text-font-size-lg: clamp(1.500rem, 1.14rem + 0.4695vw, 1.750rem);
+  --jl-text-font-size-xl: clamp(1.750rem, 1.425rem + 0.5869vw, 2.500rem);
+  --jl-text-font-size-2xl: clamp(2.500rem, 1.7812rem + 0.7336vw, 3.000rem);
+  --jl-text-font-size-3xl: clamp(3.000rem, 2.2265rem + 0.917vw, 4.000rem);
+  --jl-text-font-size-4xl: clamp(4.000rem, 2.7831rem + 1.1462vw, 5.000rem);
   --jl-color-default-bg-document: #faf9f7;
   --jl-color-default-color-document: #1a1a1a;
   --jl-color-default-inverse-bg-document: #1a1a1a;
