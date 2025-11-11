@@ -56,7 +56,7 @@ li {
 a:not([class]) {
   color: currentColor;
   text-decoration-skip-ink: auto;
-  text-underline-offset: 1px;
+  text-underline-offset: 2px;
 }
 
 picture {
