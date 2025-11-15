@@ -19,6 +19,15 @@
   --jl-color-default-inverse-color-document: #faf9f7;
 }
 
+@media (prefers-color-scheme: dark) {
+  :root {
+    --jl-color-default-bg-document: #1a1a1a;
+    --jl-color-default-color-document: #faf9f7;
+    --jl-color-default-inverse-bg-document: #faf9f7;
+    --jl-color-default-inverse-color-document: #1a1a1a;
+  }
+}
+
 
 html {
   -moz-text-size-adjust: none;
