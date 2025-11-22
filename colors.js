@@ -57,6 +57,12 @@
     document.documentElement.style.setProperty('--jl-color-default-inverse-bg-document', colors.inverseBackground);
     document.documentElement.style.setProperty('--jl-color-default-inverse-color-document', colors.inverseText);
     
+    // Update browser theme color (address bar on mobile)
+    const themeColorMeta = document.querySelector('meta[name="theme-color"]');
+    if (themeColorMeta) {
+      themeColorMeta.setAttribute('content', colors.background);
+    }
+    
     // Save to localStorage
     try {
       localStorage.setItem('savedColors', JSON.stringify(colors));
