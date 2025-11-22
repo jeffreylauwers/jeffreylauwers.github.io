@@ -39,12 +39,23 @@
     const background = `oklch(${bgLightness.toFixed(2)} ${chroma.toFixed(3)} ${bgHue.toFixed(0)})`;
     const text = `oklch(${textLightness.toFixed(2)} ${(chroma * 0.6).toFixed(3)} ${textHue.toFixed(0)})`;
     
-    return { background, text };
+    // Inverse colors are simply swapped
+    const inverseBackground = text;
+    const inverseText = background;
+    
+    return { background, text, inverseBackground, inverseText };
   }
 
   function applyColors(colors) {
+    // Apply regular colors to body
     document.body.style.backgroundColor = colors.background;
     document.body.style.color = colors.text;
+    
+    // Apply inverse colors to CSS variables
+    document.documentElement.style.setProperty('--jl-color-default-bg-document', colors.background);
+    document.documentElement.style.setProperty('--jl-color-default-color-document', colors.text);
+    document.documentElement.style.setProperty('--jl-color-default-inverse-bg-document', colors.inverseBackground);
+    document.documentElement.style.setProperty('--jl-color-default-inverse-color-document', colors.inverseText);
     
     // Save to localStorage
     try {
