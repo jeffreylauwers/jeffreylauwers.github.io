@@ -6,44 +6,34 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="theme-color" content="#faf9f7" />
     <link rel="stylesheet" href="style.css" />
-<style>
-@import url('https://fonts.googleapis.com/css2?family=Neuton:ital,wght@0,200;0,300;0,400;0,700;0,800;1,400&display=swap');
-</style>
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Neuton:ital,wght@0,200;0,300;0,400;0,700;0,800;1,400&display=swap");
+    </style>
     <script src="colors.js" defer></script>
   </head>
 
-  <body>
-    <header class="page-header">
-      <h1 class="logo">
-        Jeffrey Lauwers
-      </h1>  
+  <body class="grid">
+    <header class="page-header full-width">
+      <h1 class="logo">Jeffrey Lauwers</h1>
       <nav class="navigation">
         <ul class="navigation-list">
           <li class="navigation-list-item">
-            <a href="#work">
-              Werk
-            </a>
+            <a href="#work"> Werk </a>
           </li>
           <li class="navigation-list-item">
-            <a href="#quotes">
-              Quotes
-            </a>
+            <a href="#quotes"> Quotes </a>
           </li>
           <li class="navigation-list-item">
-            <a href="#about">
-              Over mij
-            </a>
+            <a href="#about"> Over mij </a>
           </li>
           <li class="navigation-list-item">
-            <a href="#contact">
-              Contact
-            </a>
+            <a href="#contact"> Contact </a>
           </li>
         </ul>
-      </nav> 
+      </nav>
     </header>
 
-    <div class="disclaimer">
+    <div class="disclaimer full-width">
       <p class="paragraph disclaimer-content">
         Disclaimer: Deze pagina is nog lang niet af. Ik werk er soms aan. Dus
         mocht je hier terecht komen en denken "Huh! Dat klopt niet!"... dat
@@ -51,14 +41,13 @@
       </p>
     </div>
 
-    <main>
-
+    <main class="full-width">
       <section>
-        <h2 class="heading-display">
-          Digitale probleem-oplosser.
-        </h2>
+        <h2 class="heading-display">Digitale probleem-oplosser.</h2>
         <p class="paragraph-lead">
-          Hoi! Mijn naam is Jeffrey Lauwers. Ik hou ervan om op te ruimen en mensen te helpen. Dat doe ik digitaal ook als Senior Product Designer bij
+          Hoi! Mijn naam is Jeffrey Lauwers. Ik hou ervan om op te ruimen en
+          mensen te helpen. Dat doe ik digitaal ook als Senior Product Designer
+          bij
           <a href="https://valsplat.nl/">Valsplat</a>.
         </p>
         <p class="paragraph-lead">
@@ -68,22 +57,29 @@
       </section>
 
       <section id="work">
-        <h2 class="heading-2">
-          Werk
-        </h2>
+        <h2 class="heading-2">Werk</h2>
         <p class="paragraph">
           In de afgelopen jaren heb ik gewerkt aan verschillende opdrachten.
         </p>
         <ul>
           <li class="work__item">
             <div class="work__logo-placeholder">
-            <svg class="work__logo work__logo--nlds" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" aria-hidden="true" role="presentation">
-  <path fill="currentColor" fill-rule="evenodd" clip-rule="evenodd" d="M.599 0H47.4A.6.6 0 0 1 48 .599v23.4a23.83 23.83 0 0 1-1.89 9.345 23.908 23.908 0 0 1-5.139 7.627 23.957 23.957 0 0 1-7.625 5.141A23.857 23.857 0 0 1 23.999 48a23.935 23.935 0 0 1-16.97-7.029 23.926 23.926 0 0 1-5.14-7.627A23.869 23.869 0 0 1 0 24V.599A.6.6 0 0 1 .599 0Zm20.925 3.157-.002.001c-3.08.031-4.6 3.686-2.426 5.827l4.595 4.52.016.016.017.015a.425.425 0 0 0 .28.103.423.423 0 0 0 .315-.135l4.594-4.52c2.176-2.14.653-5.795-2.425-5.827-.974-.01-1.85.37-2.485.986a3.49 3.49 0 0 0-2.48-.986ZM7.784 24c0 8.792 7.258 15.92 16.214 15.92S40.214 32.792 40.214 24h-.001v-9.896a.594.594 0 0 0-.6-.588h-6.038c-4.733 0-8.665 3.372-9.44 7.803a.136.136 0 0 1-.148.113.14.14 0 0 1-.128-.113c-.775-4.43-4.707-7.803-9.439-7.803H8.38a.593.593 0 0 0-.597.588V24Z"/>
-</svg>
-        </div>
-            <h3 class="heading-3">
-              NL Design System
-            </h3>
+              <svg
+                class="work__logo work__logo--nlds"
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 48 48"
+                aria-hidden="true"
+                role="presentation"
+              >
+                <path
+                  fill="currentColor"
+                  fill-rule="evenodd"
+                  clip-rule="evenodd"
+                  d="M.599 0H47.4A.6.6 0 0 1 48 .599v23.4a23.83 23.83 0 0 1-1.89 9.345 23.908 23.908 0 0 1-5.139 7.627 23.957 23.957 0 0 1-7.625 5.141A23.857 23.857 0 0 1 23.999 48a23.935 23.935 0 0 1-16.97-7.029 23.926 23.926 0 0 1-5.14-7.627A23.869 23.869 0 0 1 0 24V.599A.6.6 0 0 1 .599 0Zm20.925 3.157-.002.001c-3.08.031-4.6 3.686-2.426 5.827l4.595 4.52.016.016.017.015a.425.425 0 0 0 .28.103.423.423 0 0 0 .315-.135l4.594-4.52c2.176-2.14.653-5.795-2.425-5.827-.974-.01-1.85.37-2.485.986a3.49 3.49 0 0 0-2.48-.986ZM7.784 24c0 8.792 7.258 15.92 16.214 15.92S40.214 32.792 40.214 24h-.001v-9.896a.594.594 0 0 0-.6-.588h-6.038c-4.733 0-8.665 3.372-9.44 7.803a.136.136 0 0 1-.148.113.14.14 0 0 1-.128-.113c-.775-4.43-4.707-7.803-9.439-7.803H8.38a.593.593 0 0 0-.597.588V24Z"
+                />
+              </svg>
+            </div>
+            <h3 class="heading-3">NL Design System</h3>
             <p class="paragraph">
               NL Design System maakt de digitale dienstverlening van de overheid
               toegankelijk, inclusief en gebruiksvriendelijk. Dit gebeurt vanuit
@@ -103,13 +99,20 @@
           </li>
           <li class="work__item">
             <div class="work__logo-placeholder">
-              <svg class="work__logo work__logo--ns"xmlns="http://www.w3.org/2000/svg" viewBox="0 0 80 31" aria-hidden="true" role="presentation">
-  <path fill="currentColor" d="M35.071 14.88a8.75 8.75 0 0 0-6.133-2.48H11.953l6.29-6.2H34.13a2.542 2.542 0 0 1 1.725.775l9.279 9.145a8.75 8.75 0 0 0 6.133 2.48h16.99l-6.295 6.2H46.08a2.542 2.542 0 0 1-1.725-.775L35.07 14.88Zm4.876 13.485A9.624 9.624 0 0 0 46.08 31h18.4l15.729-15.5L64.482 0h-8.808l12.582 12.4H51.27a3.335 3.335 0 0 1-1.726-.62l-9.283-9.145A9.624 9.624 0 0 0 34.129 0H15.727L0 15.5 15.727 31h8.808L11.953 18.6h16.985a3.333 3.333 0 0 1 1.726.62l9.283 9.145Z"/>
-</svg>
+              <svg
+                class="work__logo work__logo--ns"
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 80 31"
+                aria-hidden="true"
+                role="presentation"
+              >
+                <path
+                  fill="currentColor"
+                  d="M35.071 14.88a8.75 8.75 0 0 0-6.133-2.48H11.953l6.29-6.2H34.13a2.542 2.542 0 0 1 1.725.775l9.279 9.145a8.75 8.75 0 0 0 6.133 2.48h16.99l-6.295 6.2H46.08a2.542 2.542 0 0 1-1.725-.775L35.07 14.88Zm4.876 13.485A9.624 9.624 0 0 0 46.08 31h18.4l15.729-15.5L64.482 0h-8.808l12.582 12.4H51.27a3.335 3.335 0 0 1-1.726-.62l-9.283-9.145A9.624 9.624 0 0 0 34.129 0H15.727L0 15.5 15.727 31h8.808L11.953 18.6h16.985a3.333 3.333 0 0 1 1.726.62l9.283 9.145Z"
+                />
+              </svg>
             </div>
-            <h3 class="heading-3">
-              NS Design System (Nessie)
-            </h3>
+            <h3 class="heading-3">NS Design System (Nessie)</h3>
             <p class="paragraph">
               Bij de Nederlandse Spoorwegen ben ik ingestapt om een
               multi-platform en toegankelijk design systeem te realiseren. Ik
@@ -122,32 +125,46 @@
           </li>
           <li class="work__item">
             <div class="work__logo-placeholder">
-              <svg class="work__logo work__logo--nn" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 47 48" aria-hidden="true" role="presentation">
-  <path fill="currentColor" d="M22.995 0c1.432 0 2.78.084 4.127.338C33.895 1.484 39.64 5.565 43.208 11.12l.339.542.398.689C45.88 15.825 46.921 19.8 47 24c0 9.296-5.307 17.408-13.056 21.38C30.66 47.07 26.953 48 22.994 48 9.265 48 0 36.675 0 27.549c0-8.958 6.15-11.915 12.635-11.915h20.383L29.9 31.268l-7.918-11.916c-.252-.337-.757-.591-1.178-.591v-.085h-6.318a.988.988 0 0 0-.927.76l-.251.93-3.202 15.972c-.084.422.17.76.59.76h4.717c.421 0 .842-.337.842-.675l1.853-9.043.59-2.788 7.833 11.915c.253.338.759.592 1.18.592h6.401a.987.987 0 0 0 .926-.761l1.348-6.423 2.443-11.746c.084-.422 0-1.014-.253-1.352l-3.959-6.17c-.253-.337-.758-.59-1.178-.59H4.717c-1.095 0-.926-.423-.084-1.522C9.013 3.295 15.583 0 22.995 0Z"/>
-</svg>
+              <svg
+                class="work__logo work__logo--nn"
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 47 48"
+                aria-hidden="true"
+                role="presentation"
+              >
+                <path
+                  fill="currentColor"
+                  d="M22.995 0c1.432 0 2.78.084 4.127.338C33.895 1.484 39.64 5.565 43.208 11.12l.339.542.398.689C45.88 15.825 46.921 19.8 47 24c0 9.296-5.307 17.408-13.056 21.38C30.66 47.07 26.953 48 22.994 48 9.265 48 0 36.675 0 27.549c0-8.958 6.15-11.915 12.635-11.915h20.383L29.9 31.268l-7.918-11.916c-.252-.337-.757-.591-1.178-.591v-.085h-6.318a.988.988 0 0 0-.927.76l-.251.93-3.202 15.972c-.084.422.17.76.59.76h4.717c.421 0 .842-.337.842-.675l1.853-9.043.59-2.788 7.833 11.915c.253.338.759.592 1.18.592h6.401a.987.987 0 0 0 .926-.761l1.348-6.423 2.443-11.746c.084-.422 0-1.014-.253-1.352l-3.959-6.17c-.253-.337-.758-.59-1.178-.59H4.717c-1.095 0-.926-.423-.084-1.522C9.013 3.295 15.583 0 22.995 0Z"
+                />
+              </svg>
             </div>
-            <h3 class="heading-3">
-              NN Design System
-            </h3>
+            <h3 class="heading-3">NN Design System</h3>
             <p class="paragraph">
               Bij Nationale Nederlanden was men verzekerd van mijn inzet om een
               multi-platform en toegankelijk design systeem te realiseren. Ik
               was verantwoordelijk voor het inventariseren, scopen, ontwerpen en
               documenteren van app (en later ook web) componenten. Ik schakelde
-              direct met de brand manager en de app developer. Daarnaast
-              hielp ik andere designers bij Nationale Nederlanden te werken via
-              het design system.
+              direct met de brand manager en de app developer. Daarnaast hielp
+              ik andere designers bij Nationale Nederlanden te werken via het
+              design system.
             </p>
           </li>
           <li class="work__item">
             <div class="work__logo-placeholder">
-              <svg class="work__logo work__logo--randstad" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 80 38" aria-hidden="true" role="presentation">
-  <path fill="currentColor" d="M29.523 38h8.422V16.765a4.198 4.198 0 0 0-1.24-3.004L24.211 1.243A4.165 4.165 0 0 0 21.212 0H0v8.457h23.193c1.679 0 3.289.668 4.476 1.858a6.349 6.349 0 0 1 1.854 4.485V38ZM50.495 38h-8.44V16.765a4.198 4.198 0 0 1 1.24-3.004L55.789 1.243A4.165 4.165 0 0 1 58.788 0H80v8.457H56.807c-1.679 0-3.29.668-4.476 1.858a6.349 6.349 0 0 0-1.854 4.485l.018 23.2Z"/>
-</svg>
+              <svg
+                class="work__logo work__logo--randstad"
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 80 38"
+                aria-hidden="true"
+                role="presentation"
+              >
+                <path
+                  fill="currentColor"
+                  d="M29.523 38h8.422V16.765a4.198 4.198 0 0 0-1.24-3.004L24.211 1.243A4.165 4.165 0 0 0 21.212 0H0v8.457h23.193c1.679 0 3.289.668 4.476 1.858a6.349 6.349 0 0 1 1.854 4.485V38ZM50.495 38h-8.44V16.765a4.198 4.198 0 0 1 1.24-3.004L55.789 1.243A4.165 4.165 0 0 1 58.788 0H80v8.457H56.807c-1.679 0-3.29.668-4.476 1.858a6.349 6.349 0 0 0-1.854 4.485l.018 23.2Z"
+                />
+              </svg>
             </div>
-            <h3 class="heading-3">
-              Randstad Design System
-            </h3>
+            <h3 class="heading-3">Randstad Design System</h3>
             <p class="paragraph">
               Bij Randstad werkte ik parallel aan twee projecten. Enerzijds was
               ik UX/UI Designer voor de HR Assistent, een B2E applicatie voor
@@ -159,36 +176,54 @@
           </li>
           <li class="work__item">
             <div class="work__logo-placeholder">
-              <svg class="work__logo work__logo--kpn" xmlns="http://www.w3.org/2000/svg" viewBox="96 96 401.2 182.9" aria-hidden="true" role="presentation" >
-  <g>
-    <path fill="currentColor" d="M257.7 168.1c-5.4-5.4-15.3-11.8-32.2-11.8-3.1 0-6.2.2-9.1.6l-.9.1.3.9c.8 2.6 1.4 5.5 1.8 8.4l.1.8.8-.1c2.4-.3 4.7-.4 7-.4 13.4 0 21 4.8 25 8.8 4.2 4.2 6.5 9.6 6.5 15 0 6.9-3.6 15.6-7.2 24.1-1.7 4.2-4.9 12.3-6.7 19.2-3.3 13.1-8.8 35-21.9 35-4.3 0-9.4-2.4-15.5-7.2-3.3 1.9-6.8 3.4-10.5 4.6 9.8 8.7 18.1 12.8 26 12.8 21.2 0 28.1-27.8 31.8-42.7 1.1-4.6 3.3-10.8 6.2-17.7 3.9-9.4 8-19.1 8-28 0-8.2-3.4-16.3-9.5-22.4M212 148.2l.9-.2c2.9-.5 5.9-.8 9.1-1h.9c-14.1-33.2-49.8-51-70.2-51-27.1 0-36.7 27.6-36.7 53.4 0 12 4.1 24.6 7.5 33l.3.8.8-.3c2.4-1.1 5-2.1 8-3.2l.8-.3-.3-.8c-4.3-10.6-6.8-21.3-6.8-29.2 0-16.5 4-30 11.1-37 4.1-4.1 9.1-6.1 15.4-6.1 16 0 46.2 14.9 59.2 41.9"/>
-    <path fill="currentColor" d="m190.8 247.3-.4-.4-.5.2c-5.5 2-11.1 2.9-17.2 2.9-20 0-41.8-8.9-55.6-22.8-6.9-6.9-10.9-14.3-10.9-20.2 0-8.1 3-14.1 9.4-19-1.2-2.9-2.6-6.3-3.8-9.9C101.2 185.2 96 194.7 96 207c0 8.7 4.9 18.5 13.9 27.5 12.4 12.5 35.5 25.8 62.9 25.8 8.6 0 16.8-1.7 24.4-5l1.1-.5-.8-.8c-2.4-2.3-4.6-4.6-6.7-6.7M467.8 169c-10.7 0-19.7 2-27.8 5.2v54h18.1v-43.3c2.6-1.2 5.9-1.8 9.3-1.8 9.8 0 11.7 6 11.7 17v28.1h18.1v-30.8c-.1-17.3-5.8-28.4-29.4-28.4M293.9 148.9H312v79.3h-18.1zM332.8 228.2h21.4l-22.5-31.9 20.6-25.2h-20.6L312 197zM392.7 182.8c7.9 0 13.1 4.9 13.1 16.3 0 11-4.1 17-13.9 17-2.8 0-6.3-.6-8.1-1.3v-30.3c2.5-1.1 5.6-1.7 8.9-1.7m-27-8.6v76.2h18.1v-21.7c3.9.7 6.9.9 10.3.9 19.9 0 30.4-11.4 30.4-30.5 0-19.2-10.3-30-31.6-30-9.7-.1-19.7 2-27.2 5.1M179.1 175.9v-9c-2.1-.6-4.7-.9-7.3-.9-10.5 0-15.6 7.1-15.6 14.2 0 6.8 2.5 13.3 11.9 27.9q5.7-.75 11.4-.9c-8.2-15.2-10.2-20.6-10.2-24.5 0-4.5 2.6-6.8 7.9-6.8z"/>
-    <path fill="currentColor" d="M150.6 189.1c-.8-2-1.3-5.3-1.6-7.7-8.3-.3-14.6 4.5-14.6 11.2 0 5.4 2.8 10.2 14.2 19.9 2.9-1 6.8-2.1 10.1-2.8-11.2-10.5-13-13.3-13-16.4.2-2.2 1.8-3.7 4.9-4.2M186.8 175.9v-9c2.1-.6 4.7-.9 7.3-.9 10.4 0 15.6 7.1 15.6 14.2 0 6.8-2.5 13.3-11.9 27.9q-5.7-.75-11.4-.9c8.2-15.2 10.2-20.6 10.2-24.5 0-4.5-2.6-6.8-7.9-6.8zM215.3 189.1c.8-2 1.3-5.3 1.6-7.7 8.3-.3 14.6 4.5 14.6 11.2 0 5.4-2.8 10.2-14.2 19.9-2.9-1-6.8-2.1-10.1-2.8 11.2-10.5 13-13.3 13-16.4-.2-2.2-1.8-3.7-4.9-4.2M183 226.2c8.4 0 17 1.1 25.9 3.8l3-10c-10-3-19.8-4.2-29-4.2s-18.9 1.2-29 4.2l3 10c9.1-2.7 17.7-3.8 26.1-3.8M173.708 151.859l9.264-9.263 9.263 9.264-9.264 9.263z"/>
-  </g>
-</svg>   
+              <svg
+                class="work__logo work__logo--kpn"
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="96 96 401.2 182.9"
+                aria-hidden="true"
+                role="presentation"
+              >
+                <g>
+                  <path
+                    fill="currentColor"
+                    d="M257.7 168.1c-5.4-5.4-15.3-11.8-32.2-11.8-3.1 0-6.2.2-9.1.6l-.9.1.3.9c.8 2.6 1.4 5.5 1.8 8.4l.1.8.8-.1c2.4-.3 4.7-.4 7-.4 13.4 0 21 4.8 25 8.8 4.2 4.2 6.5 9.6 6.5 15 0 6.9-3.6 15.6-7.2 24.1-1.7 4.2-4.9 12.3-6.7 19.2-3.3 13.1-8.8 35-21.9 35-4.3 0-9.4-2.4-15.5-7.2-3.3 1.9-6.8 3.4-10.5 4.6 9.8 8.7 18.1 12.8 26 12.8 21.2 0 28.1-27.8 31.8-42.7 1.1-4.6 3.3-10.8 6.2-17.7 3.9-9.4 8-19.1 8-28 0-8.2-3.4-16.3-9.5-22.4M212 148.2l.9-.2c2.9-.5 5.9-.8 9.1-1h.9c-14.1-33.2-49.8-51-70.2-51-27.1 0-36.7 27.6-36.7 53.4 0 12 4.1 24.6 7.5 33l.3.8.8-.3c2.4-1.1 5-2.1 8-3.2l.8-.3-.3-.8c-4.3-10.6-6.8-21.3-6.8-29.2 0-16.5 4-30 11.1-37 4.1-4.1 9.1-6.1 15.4-6.1 16 0 46.2 14.9 59.2 41.9"
+                  />
+                  <path
+                    fill="currentColor"
+                    d="m190.8 247.3-.4-.4-.5.2c-5.5 2-11.1 2.9-17.2 2.9-20 0-41.8-8.9-55.6-22.8-6.9-6.9-10.9-14.3-10.9-20.2 0-8.1 3-14.1 9.4-19-1.2-2.9-2.6-6.3-3.8-9.9C101.2 185.2 96 194.7 96 207c0 8.7 4.9 18.5 13.9 27.5 12.4 12.5 35.5 25.8 62.9 25.8 8.6 0 16.8-1.7 24.4-5l1.1-.5-.8-.8c-2.4-2.3-4.6-4.6-6.7-6.7M467.8 169c-10.7 0-19.7 2-27.8 5.2v54h18.1v-43.3c2.6-1.2 5.9-1.8 9.3-1.8 9.8 0 11.7 6 11.7 17v28.1h18.1v-30.8c-.1-17.3-5.8-28.4-29.4-28.4M293.9 148.9H312v79.3h-18.1zM332.8 228.2h21.4l-22.5-31.9 20.6-25.2h-20.6L312 197zM392.7 182.8c7.9 0 13.1 4.9 13.1 16.3 0 11-4.1 17-13.9 17-2.8 0-6.3-.6-8.1-1.3v-30.3c2.5-1.1 5.6-1.7 8.9-1.7m-27-8.6v76.2h18.1v-21.7c3.9.7 6.9.9 10.3.9 19.9 0 30.4-11.4 30.4-30.5 0-19.2-10.3-30-31.6-30-9.7-.1-19.7 2-27.2 5.1M179.1 175.9v-9c-2.1-.6-4.7-.9-7.3-.9-10.5 0-15.6 7.1-15.6 14.2 0 6.8 2.5 13.3 11.9 27.9q5.7-.75 11.4-.9c-8.2-15.2-10.2-20.6-10.2-24.5 0-4.5 2.6-6.8 7.9-6.8z"
+                  />
+                  <path
+                    fill="currentColor"
+                    d="M150.6 189.1c-.8-2-1.3-5.3-1.6-7.7-8.3-.3-14.6 4.5-14.6 11.2 0 5.4 2.8 10.2 14.2 19.9 2.9-1 6.8-2.1 10.1-2.8-11.2-10.5-13-13.3-13-16.4.2-2.2 1.8-3.7 4.9-4.2M186.8 175.9v-9c2.1-.6 4.7-.9 7.3-.9 10.4 0 15.6 7.1 15.6 14.2 0 6.8-2.5 13.3-11.9 27.9q-5.7-.75-11.4-.9c8.2-15.2 10.2-20.6 10.2-24.5 0-4.5-2.6-6.8-7.9-6.8zM215.3 189.1c.8-2 1.3-5.3 1.6-7.7 8.3-.3 14.6 4.5 14.6 11.2 0 5.4-2.8 10.2-14.2 19.9-2.9-1-6.8-2.1-10.1-2.8 11.2-10.5 13-13.3 13-16.4-.2-2.2-1.8-3.7-4.9-4.2M183 226.2c8.4 0 17 1.1 25.9 3.8l3-10c-10-3-19.8-4.2-29-4.2s-18.9 1.2-29 4.2l3 10c9.1-2.7 17.7-3.8 26.1-3.8M173.708 151.859l9.264-9.263 9.263 9.264-9.264 9.263z"
+                  />
+                </g>
+              </svg>
             </div>
-            <h3 class="heading-3">
-              KPN - Wifi tuner
-            </h3>
+            <h3 class="heading-3">KPN - Wifi tuner</h3>
             <p class="paragraph">
-              Bij KPN werkte ik voor een langere periode aan verschillende projecten. Dat deed ik voor het Service team. Het hoogtepunt van mijn periode daar was het ontwikkelen van de Wifi tuner. Hiervoor zijn we gestart met twee Design Sprints. Vervolgens heb ik een uitgebreide, of eigenlijk gigantische, flowchart en een prototype opgeleverd. We zijn bij KPN klanten thuis in gesprek gegaan terwijl ze met het prototype aan de slag gingen. Op die manier haalde we waardevolle inzichten op.
+              Bij KPN werkte ik voor een langere periode aan verschillende
+              projecten. Dat deed ik voor het Service team. Het hoogtepunt van
+              mijn periode daar was het ontwikkelen van de Wifi tuner. Hiervoor
+              zijn we gestart met twee Design Sprints. Vervolgens heb ik een
+              uitgebreide, of eigenlijk gigantische, flowchart en een prototype
+              opgeleverd. We zijn bij KPN klanten thuis in gesprek gegaan
+              terwijl ze met het prototype aan de slag gingen. Op die manier
+              haalde we waardevolle inzichten op.
             </p>
           </li>
-<li class="work__item">
-            <h3 class="heading-3">
-              En verder?
-            </h3>
+          <li class="work__item">
+            <h3 class="heading-3">En verder?</h3>
             <p class="paragraph">
-              Verder heb ik ook gewerkt aan redesigns voor Marktplaats, de Vakantie Discounter, het Financieel Dagblad, BNR, AirFrance KLM Cargo en de HBO Kennisbank.
+              Verder heb ik ook gewerkt aan redesigns voor Marktplaats, de
+              Vakantie Discounter, het Financieel Dagblad, BNR, AirFrance KLM
+              Cargo en de HBO Kennisbank.
             </p>
           </li>
         </ul>
       </section>
 
       <section id="quotes">
-        <h2 class="heading-2">
-          Quotes
-        </h2>
+        <h2 class="heading-2">Quotes</h2>
         <p class="paragraph">
           Feedback op mijn werkzaamheden van mensen met wie ik heb samengewerkt.
         </p>
@@ -274,8 +309,8 @@
         <figure>
           <blockquote class="quote">
             <p class="paragraph">
-              Jeff is een van de fijnste collega&rsquo;s om mee samen te werken. Hij
-              combineert diepgaande kennis van design systems met een
+              Jeff is een van de fijnste collega&rsquo;s om mee samen te werken.
+              Hij combineert diepgaande kennis van design systems met een
               gestructureerde en duidelijke manier van werken. Dankzij zijn
               analytisch vermogen ziet hij snel verbanden en vertaalt onderzoek
               naar concrete verbeteringen. Daarbij communiceert hij helder,
@@ -301,27 +336,26 @@
             Yolijn van der Kolk, Productmanager NL Design System
           </figcaption>
         </figure>
-
       </section>
 
       <section id="about">
-        <h2 class="heading-2">
-          Over mij
-        </h2>
+        <h2 class="heading-2">Over mij</h2>
         <p class="paragraph">
-          Ik woon in Purmerend met mijn vrouw en twee zoons. Ik werk graag vanuit huis, maar vind het ook leuk om samen te werken op locatie. Na een werkdag ga ik graag sporten, en op zondag voetbal ik in het Amsterdamse Bos. Daarnaast ben ik supporter van de grootste voetbalclub van Nederland.
+          Ik woon in Purmerend met mijn vrouw en twee zoons. Ik werk graag
+          vanuit huis, maar vind het ook leuk om samen te werken op locatie. Na
+          een werkdag ga ik graag sporten, en op zondag voetbal ik in het
+          Amsterdamse Bos. Daarnaast ben ik supporter van de grootste
+          voetbalclub van Nederland.
         </p>
       </section>
 
       <section id="contact">
-        <h2 class="heading-2">
-          Contact
-        </h2>
+        <h2 class="heading-2">Contact</h2>
         <p class="paragraph">
-          Wil je met mij samenwerken? Neem contact op met <a href="https://valsplat.nl/">Valsplat</a>.
+          Wil je met mij samenwerken? Neem contact op met
+          <a href="https://valsplat.nl/">Valsplat</a>.
         </p>
       </section>
-      
     </main>
   </body>
 </html>
