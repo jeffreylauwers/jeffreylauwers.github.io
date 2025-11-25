@@ -162,8 +162,15 @@ section {
   font-size: var(--jl-text-font-size-sm);
   margin-block-start: 1rem;
 }
-profile-picture {
+.profile-picture {
+  content: url('profile-light.png');
   margin-block-start: 4rem;
   margin-block-end: -0.5rem;
   width: 60%;
+}
+
+@media (prefers-color-scheme: dark) {
+  .profile-picture {
+    content: url('profile-dark.png');
+  }
 }
