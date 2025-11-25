@@ -171,10 +171,12 @@ section {
 @media (prefers-color-scheme: dark) {
   .profile-picture {
     content: url('profile-dark.png');
+    
   }
 }
 @media screen and (min-width: 48rem) {
   .profile-picture {
     width: 60%;
+    mix-blend-mode: lighten;
   }
 }
