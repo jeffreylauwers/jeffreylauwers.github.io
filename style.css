@@ -127,7 +127,7 @@ section {
   color: var(--jl-color-default-inverse-color-document);
   padding: 1rem;
 }
-.disclaimer-content {
+.disclaimer__content {
   margin-block-start: 0;
 }
 .navigation-list {
@@ -136,7 +136,10 @@ section {
   flex-flow: wrap;
 }
 .navigation-list__link {
+  color: currentColor;
   padding-block: 0.5rem;
+  text-decoration-skip-ink: auto;
+  text-underline-offset: 2px;
 }
 .work__item {
   margin-block-start: 4rem;
