@@ -178,7 +178,7 @@ section {
   .profile-picture {
     content: url('profile-dark.png');
     /* mix-blend-mode: lighten;  */
-    opacity: 80%;
+    opacity: 90%;
   }
 }
 @media screen and (min-width: 48rem) {
