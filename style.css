@@ -117,10 +117,11 @@ section {
 .logo {
   display: inline-block;
   background-color: var(--jl-color-default-inverse-bg-document);
+  border-radius: 0.5rem 0;
   color: var(--jl-color-default-inverse-color-document);
   font-size: var(--jl-text-font-size-md);
   font-weight: 400;
-  padding: 0.5rem;
+  padding: 0.25rem 1rem 0.5rem 1rem;
 }
 .disclaimer {
   background-color: var(--jl-color-default-inverse-bg-document);
